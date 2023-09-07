@@ -1,0 +1,31 @@
+p{
+    border: 10px dotted red;
+    
+
+    
+}
+#paragrafo-lindo{
+    color: hsla(358, 100%, 50%, 0.348);
+    background-color: chartreuse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.paragrafo-feio{
+    color: blueviolet;
+    background-color: aqua;
+    font-size: 20px ;
+}
+body{
+    background-image:url(Paisagem-1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 1859px;
+}
+
+h1 {
+    color: red;
+    background-color: yellow;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: 'Rubik Iso', cursive;
+}

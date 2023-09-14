@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Display</title>
+    <link rel="stylesheet" href="assets/css/estilo_display.css">
+    <style>
+        .bloco1, .bloco2, .bloco3{
+            font-size: 30px;
+            width: 100px;
+            height: 50px;
+            display:flex;
+            border: 2px solid yellow;
+            text-align: center;
+            padding: 10px;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+            
+        
+        
+        }
+
+
+        .bloco1{
+            background-color: pink;
+            
+        }
+        .bloco2{
+            background-color: blue;
+            
+        }
+        .bloco3{
+            background-color: red;
+            
+        }
+        img{
+            width: 200px;
+            filter: grayscale(90%);
+
+        }
+        .posicao{
+            position: fixed;
+            top: 400px;
+            left: 10px;
+        }
+        body{
+            background-image: url(assets/img/Paisagem-1.jpg);
+            background-repeat: no-repeat;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="bloco1">
+        Bloco 1
+
+    </div>
+    <div class="bloco2">
+        Bloco 2
+
+    </div>
+    <div class="bloco3">
+        Bloco 3
+
+    </div>
+    <div>
+    <img src="assets/img/Paisagem-1.jpg" alt="paisagem">
+    <img class="posicao" src="assets/img/Paisagem-1.jpg" alt="paisagem">
+    <img src="assets/img/Paisagem-1.jpg" alt="paisagem">
+</div>
+</body>
+</html>
